@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PlayerBehaviour : MonoBehaviour
 {
     public float moveSpeed;
     public float jumpHeight;

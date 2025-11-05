@@ -44,6 +44,9 @@ TagManager:
   - name: clouds
     uniqueID: 333728011
     locked: 0
-  - name: terrain
+  - name: terrain and lake
     uniqueID: 909874207
+    locked: 0
+  - name: lake effect
+    uniqueID: 3937725171
     locked: 0
