@@ -44,6 +44,9 @@ TagManager:
   - name: clouds
     uniqueID: 333728011
     locked: 0
+  - name: tree
+    uniqueID: 2800020159
+    locked: 0
   - name: terrain and lake
     uniqueID: 909874207
     locked: 0
