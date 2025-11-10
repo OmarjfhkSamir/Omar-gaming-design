@@ -47,6 +47,9 @@ TagManager:
   - name: tree
     uniqueID: 2800020159
     locked: 0
+  - name: flower
+    uniqueID: 2259629279
+    locked: 0
   - name: terrain and lake
     uniqueID: 909874207
     locked: 0
