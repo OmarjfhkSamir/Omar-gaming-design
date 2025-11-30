@@ -18,12 +18,12 @@ void FixedUpdate()
     if (sr.flipX == true)
     {
         this.GetComponent<Rigidbody2D>().velocity =
-            new Vector2(-maxSpeed, this.GetComponent<Rigidbody2D>().velocity.y);
+            new Vector2(maxSpeed, this.GetComponent<Rigidbody2D>().velocity.y);
     }
     else
     {
         this.GetComponent<Rigidbody2D>().velocity =
-            new Vector2(maxSpeed, this.GetComponent<Rigidbody2D>().velocity.y);
+            new Vector2(-maxSpeed, this.GetComponent<Rigidbody2D>().velocity.y);
     }
 }
 

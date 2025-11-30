@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    
+
     public float maxSpeed = 2; 
 
     public int damage = 1;
@@ -14,6 +16,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+   
     }
 
     // Update is called once per frame

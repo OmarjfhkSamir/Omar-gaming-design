@@ -124,3 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a54cb7803a4864980ab17fe91c5b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coin1: {fileID: 8300000, guid: 9b177e57ce90b8348a4e7e1d64167db9, type: 3}
+  coin2: {fileID: 8300000, guid: 95fd87f1e37633b4f9e17a705e82e2c4, type: 3}

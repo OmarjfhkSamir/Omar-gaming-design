@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8361237505469986002}
   - component: {fileID: 7376921719429950185}
   - component: {fileID: 7376921719429950182}
-  - component: {fileID: 1858586376346188705}
+  - component: {fileID: 816330288}
   m_Layer: 0
   m_Name: Ghost Enemy 1
   m_TagString: Enemy
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 909874207
   m_SortingLayer: 4
-  m_SortingOrder: 10
+  m_SortingOrder: 4
   m_Sprite: {fileID: 177218822, guid: 2eed628c2eef31f44b81fffa9d39ef57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -127,12 +127,12 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 15
+  m_Mass: 20
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
@@ -166,19 +166,23 @@ MonoBehaviour:
   maxSpeed: 4
   damage: 1
   sr: {fileID: 0}
---- !u!114 &1858586376346188705
-MonoBehaviour:
+--- !u!95 &816330288
+Animator:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140115060899076693}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad972a8fcd723064683e68b1a74f2b33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxSpeed: 4
-  damage: 1
-  sr: {fileID: 0}
-  player: {fileID: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ded35b876cf36454c992b95e08276886, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
